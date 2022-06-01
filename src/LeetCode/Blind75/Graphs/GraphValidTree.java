@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-
+/*
+ * PROBLEM: https://www.lintcode.com/problem/178/
+ * SOLUTION: https://www.youtube.com/watch?v=bXsUuownnoQ
+ */
 public class GraphValidTree {
 
     public static boolean validTree(int n, int[][] edges) {
