@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/Graphs/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/UnionFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Blind75/Graphs/GraphValidTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/Graphs/GraphValidTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +30,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
-  <component name="RunManager" selected="Application.LeetCode.Blind75.Graphs.CourseSchedule">
+}]]></component>
+  <component name="RunManager" selected="Application.GraphValidTree">
     <configuration name="BinaryTreeTraversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeTraversals" />
       <module name="DSA" />
@@ -56,6 +58,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphValidTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.Graphs.GraphValidTree" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Blind75.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.Traversals" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphValidTree" />
         <item itemvalue="Application.LeetCode.Blind75.Graphs.CourseSchedule" />
         <item itemvalue="Application.PacificAtlanticWaterFlow" />
         <item itemvalue="Application.CourseSchedule" />
         <item itemvalue="Application.BinaryTreeTraversals" />
-        <item itemvalue="Application.Traversals" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +126,9 @@
       <workItem from="1653959722428" duration="4000" />
       <workItem from="1653959749280" duration="4225000" />
       <workItem from="1654025947718" duration="27000" />
-      <workItem from="1654026087906" duration="6189000" />
+      <workItem from="1654026087906" duration="8098000" />
+      <workItem from="1654056076924" duration="1503000" />
+      <workItem from="1654118360077" duration="2562000" />
     </task>
     <servers />
   </component>
