@@ -7,28 +7,25 @@ import java.util.List;
 
 public class GraphValidTree {
 
-    public boolean validTree(int n, int[][] edges) {
-        if (n == 0)
-            return true;
+    public static boolean validTree(int n, int[][] edges) {
+        if (n == 0) return true;
+        if (edges.length == 0) return true;
 
         HashMap<Integer, List<Integer>> adjList = buildAdjListUndirected(edges);
         HashSet<Integer> visited = new HashSet<>(n);
 
-        dfs()
+        return dfs(adjList, visited, 0, -1) && n == visited.size();
     }
 
-    public boolean dfs(HashMap<Integer, List<Integer>> adjacencyList, HashSet<Integer> visited,
-                       int i, int prev) {
-
-        if (visited.contains(i))
-            return false;
+    public static boolean dfs(HashMap<Integer, List<Integer>> adjList, HashSet<Integer> visited, int i, int prev) {
+        if (visited.contains(i)) return false;
 
         visited.add(i);
-        for (int vertex : adjacencyList.get(i)) {
-            if (vertex == prev)
-                continue;
-            dfs(vertex,)
+        for (int vertex : adjList.get(i)) {
+            if (vertex == prev) continue;
+            if (!dfs(adjList, visited, vertex, i)) return false;
         }
+        return true;
     }
 
     public static HashMap<Integer, List<Integer>> buildAdjListUndirected(int[][] edges) {
@@ -45,7 +42,6 @@ public class GraphValidTree {
             adjList.get(v1).add(v2);
             adjList.get(v2).add(v1);
         }
-
         return adjList;
     }
 
@@ -53,8 +49,8 @@ public class GraphValidTree {
         int[][] edges = {{0, 1}, {0, 2}, {0, 3}, {1, 4}};
         int[][] edges2 = {{0, 1}, {1, 2}, {2, 3}, {1, 3}, {1, 4}};
 
-        System.out.println(buildAdjListUndirected(edges));
-        System.out.println(buildAdjListUndirected(edges2));
+        System.out.println(validTree(5, edges));
+        System.out.println(validTree(5, edges2));
     }
 
 }
