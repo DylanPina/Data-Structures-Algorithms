@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/Graphs/NumberOfConnectedComponents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Blind75/Graphs/GraphValidTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/Graphs/GraphValidTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +37,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GraphValidTree">
-    <configuration name="BinaryTreeTraversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeTraversals" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumberOfConnectedComponents">
     <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.CourseSchedule" />
       <module name="DSA" />
@@ -90,6 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberOfConnectedComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.Graphs.NumberOfConnectedComponents" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Blind75.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PacificAtlanticWaterFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.Graphs.PacificAtlanticWaterFlow" />
       <module name="DSA" />
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfConnectedComponents" />
         <item itemvalue="Application.GraphValidTree" />
         <item itemvalue="Application.LeetCode.Blind75.Graphs.CourseSchedule" />
         <item itemvalue="Application.PacificAtlanticWaterFlow" />
         <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application.BinaryTreeTraversals" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +127,7 @@
       <workItem from="1654025947718" duration="27000" />
       <workItem from="1654026087906" duration="8098000" />
       <workItem from="1654056076924" duration="1503000" />
-      <workItem from="1654118360077" duration="4025000" />
+      <workItem from="1654118360077" duration="6712000" />
     </task>
     <servers />
   </component>
