@@ -2,7 +2,7 @@ package Graphs;
 /*
  * EXPLANATION: https://www.youtube.com/watch?v=4avlWhSdM2I
  * - Keeps track of elements that are in the non-overlapping disjoint subsets
- * - FindParent(x): Find the root node of a cluster
+ * - Find(x): Find the root node of a cluster
  * - Union(x, y): Merge two clusters
  */
 public class UnionFind {
@@ -20,7 +20,7 @@ public class UnionFind {
         }
     }
 
-    public int findParent(int curr) {
+    public int find(int curr) {
         int root = curr;
         while (root != parents[root])
             root = parents[root];
@@ -35,13 +35,13 @@ public class UnionFind {
     }
 
     public int findComponentSize(int curr) {
-        int parent = findParent(curr);
+        int parent = find(curr);
         return size[parent];
     }
 
     public void union(int node1, int node2) {
-        int node1Parent = findParent(node1);
-        int node2Parent = findParent(node2);
+        int node1Parent = find(node1);
+        int node2Parent = find(node2);
 
         if (node1Parent == node2Parent)
             return;
