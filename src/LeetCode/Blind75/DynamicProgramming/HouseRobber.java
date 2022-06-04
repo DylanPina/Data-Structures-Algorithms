@@ -2,7 +2,7 @@ package LeetCode.Blind75.DynamicProgramming;
 /*
  * PROBLEM: https://leetcode.com/problems/house-robber/submissions/
  * SOLUTION: https://www.youtube.com/watch?v=73r3KWiEvyk
- * BIG 0:
+ * BIG 0: O(n)
  */
 public class HouseRobber {
     public static int rob(int[] nums) {
