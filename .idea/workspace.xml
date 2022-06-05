@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/DynamicProgramming/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/DynamicProgramming/MaximumProductSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.MaximumProductSubarray">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.CoinChange" />
       <module name="DSA" />
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.HouseRobberII" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.LongestPalindromicSubstring" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.LongestPalindromicSubstring" />
+    <configuration name="MaximumProductSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.MaximumProductSubarray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumProductSubarray" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.DecodeWays" />
         <item itemvalue="Application.PalindromicSubstrings" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.HouseRobberII" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,8 @@
       <workItem from="1654195452537" duration="4000" />
       <workItem from="1654206318512" duration="4851000" />
       <workItem from="1654291492822" duration="8178000" />
-      <workItem from="1654352206921" duration="10405000" />
+      <workItem from="1654352206921" duration="11099000" />
+      <workItem from="1654457810811" duration="2367000" />
     </task>
     <servers />
   </component>
@@ -149,25 +150,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LeetCode/Blind75/DynamicProgramming/CoinChange.java</url>
-          <line>11</line>
-          <properties class="LeetCode.Blind75.DynamicProgramming.CoinChange" method="coinChange">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/Blind75/DynamicProgramming/CoinChange.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
