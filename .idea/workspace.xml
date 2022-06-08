@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/DynamicProgramming/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/DynamicProgramming/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +37,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UniquePaths">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.CoinChange" />
+  <component name="RunManager" selected="Application.LongestCommonSubsequence">
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.DynamicProgramming.LongestCommonSubsequence" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequence" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.MaximumProductSubarray" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +134,7 @@
       <workItem from="1654291492822" duration="8178000" />
       <workItem from="1654352206921" duration="11099000" />
       <workItem from="1654457810811" duration="7958000" />
-      <workItem from="1654649823313" duration="1834000" />
+      <workItem from="1654649823313" duration="2813000" />
     </task>
     <servers />
   </component>
