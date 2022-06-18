@@ -15,8 +15,4 @@ public class ReverseBits {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        System.out.println(reverseBits(00000010100101000001111010011100));
-    }
 }
