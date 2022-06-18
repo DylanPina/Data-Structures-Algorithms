@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/BitManipulation/CountingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/BitManipulation/ReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountingBits">
+  <component name="RunManager" selected="Application.ReverseBits">
     <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.CountingBits" />
       <module name="DSA" />
@@ -51,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingRoomsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.Intervals.MeetingRoomsII" />
+    <configuration name="NumberOf1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.NumberOf1Bits" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Blind75.Intervals.*" />
+          <option name="PATTERN" value="LeetCode.Blind75.BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOf1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.NumberOf1Bits" />
+    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.ReverseBits" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseBits" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.NumberOf1Bits" />
         <item itemvalue="Application.SetMatrixZeroes" />
         <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.MeetingRoomsII" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +148,7 @@
       <workItem from="1655300340759" duration="1308000" />
       <workItem from="1655318380228" duration="3089000" />
       <workItem from="1655435441990" duration="2411000" />
-      <workItem from="1655580117489" duration="1578000" />
+      <workItem from="1655580117489" duration="3159000" />
     </task>
     <servers />
   </component>
