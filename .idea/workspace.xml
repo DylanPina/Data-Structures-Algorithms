@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Blind75/BitManipulation/ReverseBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/BitManipulation/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Blind75/BitManipulation/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,22 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseBits">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.CountingBits" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Blind75.BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.MissingNumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -89,26 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.Geometry.SpiralMatrix" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.Blind75.Geometry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ReverseBits" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.NumberOf1Bits" />
         <item itemvalue="Application.SetMatrixZeroes" />
-        <item itemvalue="Application.SpiralMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,8 @@
       <workItem from="1655300340759" duration="1308000" />
       <workItem from="1655318380228" duration="3089000" />
       <workItem from="1655435441990" duration="2411000" />
-      <workItem from="1655580117489" duration="3826000" />
+      <workItem from="1655580117489" duration="3883000" />
+      <workItem from="1655667435663" duration="2128000" />
     </task>
     <servers />
   </component>
