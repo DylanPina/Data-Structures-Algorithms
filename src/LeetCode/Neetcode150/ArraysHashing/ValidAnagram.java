@@ -1,4 +1,4 @@
-package LeetCode.Needcode150.ArraysHashing;
+package LeetCode.Neetcode150.ArraysHashing;
 /**
  * PROBLEM: https://leetcode.com/problems/valid-anagram/submissions/
  * SOLUTION: https://www.youtube.com/watch?v=9UtInBqnCgA&feature=youtu.be

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Needcode150/ArraysHashing/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Needcode150/ArraysHashing/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ValidAnagram">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Needcode150.ArraysHashing.ContainsDuplicate" />
       <module name="DSA" />
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.ReverseBits" />
+    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.SumOfTwoIntegers" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Blind75.BitManipulation.SumOfTwoIntegers" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Needcode150.ArraysHashing.TwoSum" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Blind75.BitManipulation.*" />
+          <option name="PATTERN" value="LeetCode.Needcode150.ArraysHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.SumOfTwoIntegers" />
         <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.ReverseBits" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,7 @@
       <workItem from="1655435441990" duration="2411000" />
       <workItem from="1655580117489" duration="3883000" />
       <workItem from="1655667435663" duration="4184000" />
-      <workItem from="1655865658228" duration="1664000" />
+      <workItem from="1655865658228" duration="2283000" />
     </task>
     <servers />
   </component>

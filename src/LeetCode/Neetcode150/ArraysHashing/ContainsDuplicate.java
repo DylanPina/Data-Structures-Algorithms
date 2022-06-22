@@ -1,4 +1,4 @@
-package LeetCode.Needcode150.ArraysHashing;
+package LeetCode.Neetcode150.ArraysHashing;
 import java.util.HashSet;
 /**
  * PROBLEM: https://leetcode.com/problems/contains-duplicate/
