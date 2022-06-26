@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/ArraysHashing/ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/ArraysHashing/ValidSudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +155,9 @@
       <workItem from="1655953598811" duration="1343000" />
       <workItem from="1656045225584" duration="1679000" />
       <workItem from="1656180767196" duration="1765000" />
-      <workItem from="1656207308231" duration="3104000" />
+      <workItem from="1656207308231" duration="3167000" />
+      <workItem from="1656213278723" duration="62000" />
+      <workItem from="1656274682451" duration="2430000" />
     </task>
     <servers />
   </component>
