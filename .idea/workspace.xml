@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/ArraysHashing/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/TwoPointers/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +38,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestConsecutiveSequence">
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="Chapter4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter4.Chapter4" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.ArraysHashing.GroupAnagrams" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.Neetcode150.ArraysHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.TwoPointers.ValidPalindrome" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Neetcode150.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.ProductExceptSelf" />
         <item itemvalue="Application.TopKFrequentElements" />
         <item itemvalue="Application.Chapter4" />
-        <item itemvalue="Application.GroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,8 @@
       <workItem from="1656207308231" duration="3167000" />
       <workItem from="1656213278723" duration="62000" />
       <workItem from="1656274682451" duration="4216000" />
-      <workItem from="1656387813083" duration="1505000" />
+      <workItem from="1656387813083" duration="1710000" />
+      <workItem from="1656473185254" duration="932000" />
     </task>
     <servers />
   </component>
