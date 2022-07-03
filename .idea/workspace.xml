@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="NeetCode150 - Trapping Rain Water">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/SlidingWindow/BestTimeBuySellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656783718017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NeetCode150 - Best Time to Buy &amp; Sell Stocks">
+      <created>1656786132132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656786132132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +207,7 @@
     <MESSAGE value="NeetCode150 - Three Sum" />
     <MESSAGE value="NeetCode150 - Container with Most Water" />
     <MESSAGE value="NeetCode150 - Trapping Rain Water" />
-    <option name="LAST_COMMIT_MESSAGE" value="NeetCode150 - Trapping Rain Water" />
+    <MESSAGE value="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
   </component>
 </project>
