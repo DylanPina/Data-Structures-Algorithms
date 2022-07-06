@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="NeetCode150 - Longest Repeating Character Replacement">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/SlidingWindow/PermutationInString.java" afterDir="false" />
+    <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="NeetCode150 - Permutation in String">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/SlidingWindow/SlidingWindowMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +39,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PermutationInString">
-    <configuration name="BestTimeBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.BestTimeBuySellStock" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.Neetcode150.SlidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SlidingWindowMaximum">
     <configuration name="LongestRepeatingCharReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.LongestRepeatingCharReplacement" />
       <module name="DSA" />
@@ -78,6 +66,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.MinimumWindowSubstring" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Neetcode150.SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.PermutationInString" />
       <module name="DSA" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.TwoPointers.TrappingRainWater" />
+    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.SlidingWindowMaximum" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Neetcode150.TwoPointers.*" />
+          <option name="PATTERN" value="LeetCode.Neetcode150.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindowMaximum" />
+        <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.LongestRepeatingCharReplacement" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingChars" />
-        <item itemvalue="Application.BestTimeBuySellStock" />
-        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656873079444</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="NeetCode150 - Permutation in String">
+      <created>1656877544218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656877544218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,7 @@
     <MESSAGE value="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
     <MESSAGE value="NeetCode150 - Longest Substring Without Repeating Characters" />
     <MESSAGE value="NeetCode150 - Longest Repeating Character Replacement" />
-    <option name="LAST_COMMIT_MESSAGE" value="NeetCode150 - Longest Repeating Character Replacement" />
+    <MESSAGE value="NeetCode150 - Permutation in String" />
+    <option name="LAST_COMMIT_MESSAGE" value="NeetCode150 - Permutation in String" />
   </component>
 </project>
