@@ -7,21 +7,17 @@ package LeetCode.Neetcode150.SlidingWindow;
 public class BestTimeBuySellStock {
 
     public static int maxProfit(int[] prices) {
-        int left = 0, right = 1; // left = buy, right = sell
-        int maxProfit = 0;
+        int sell = 0;
+        int buy = Integer.MAX_VALUE;
 
-        while (right < prices.length) {
-            // Check if it is a profitable transaction
-            if (prices[left] < prices[right]) {
-                int profit = prices[right] - prices[left];
-                maxProfit = Math.max(maxProfit, profit);
-            } else {
-                left += 1;
-            }
-            right += 1;
+        for (int price : prices) {
+            if (price < buy)
+                buy = price;
+            else
+                sell = Math.max(sell, price - buy);
         }
 
-        return maxProfit;
+        return sell;
     }
 
     public static void main(String[] args) {
