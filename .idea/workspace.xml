@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="NeetCode150 - Sliding Window Maximum">
+    <list default="true" id="c15bf6a0-6d2d-4cc7-a105-8023c81d33eb" name="Changes" comment="NeetCode150 - Best Time to Buy &amp; Sell Stocks">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Neetcode150/Stacks/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +38,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BestTimeBuySellStock">
+  <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="BestTimeBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.BestTimeBuySellStock" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.Neetcode150.SlidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestRepeatingCharReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.SlidingWindow.LongestRepeatingCharReplacement" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Neetcode150.Stacks.ValidParentheses" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Neetcode150.Stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.BestTimeBuySellStock" />
         <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.PermutationInString" />
-        <item itemvalue="Application.LongestRepeatingCharReplacement" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657082052331</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="NeetCode150 - Best Time to Buy &amp; Sell Stocks">
+      <created>1657229333204</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657229333204</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,11 +264,11 @@
     <MESSAGE value="NeetCode150 - Three Sum" />
     <MESSAGE value="NeetCode150 - Container with Most Water" />
     <MESSAGE value="NeetCode150 - Trapping Rain Water" />
-    <MESSAGE value="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
     <MESSAGE value="NeetCode150 - Longest Substring Without Repeating Characters" />
     <MESSAGE value="NeetCode150 - Longest Repeating Character Replacement" />
     <MESSAGE value="NeetCode150 - Permutation in String" />
     <MESSAGE value="NeetCode150 - Sliding Window Maximum" />
-    <option name="LAST_COMMIT_MESSAGE" value="NeetCode150 - Sliding Window Maximum" />
+    <MESSAGE value="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="NeetCode150 - Best Time to Buy &amp; Sell Stocks" />
   </component>
 </project>
